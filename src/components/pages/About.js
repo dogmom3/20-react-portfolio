@@ -1,16 +1,15 @@
 import React from 'react';
+import profileImage from '../../assets/profile-photo.jpg';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className='my-5'>
+      <h1 id='about'>About Me:</h1>
+      <img src={profileImage} className='my-2' style={{ width: '30%'}} alt='profile image' /> 
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        My name is Blair Seivers and I am an aspiring web developer. 
+        I have just completed the Coding Bootcamp through UNC and 
+        am eager to continue learning and practicing my skills.
       </p>
     </div>
   );
