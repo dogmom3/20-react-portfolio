@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+this goes in the blog/portfolio page:
+//       <h1>Portfolio:</h1>
+
+//       <h2>
+//         <a href="/">
+//           <span role="img" aria-label="projects">
+//             {" "}
+//             📸
+//           </span>{" "}
+//           Oh Snap!
+//         </a>
+//       </h2>
+
+//       <div>
+//         <ul className="flex-row">
+//         {projects.map((project) => (
+//   <li
+//     className="mx-1"
+//     key={project.name}
+//   >
+//     <span onClick={() => projectSelected(project.name)} >
+//       {project.name}
+//     </span>
+//   </li>
+// ))}
+//         </ul>
+//       </div>
