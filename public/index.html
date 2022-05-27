@@ -41,6 +41,12 @@
     -->
   </body>
 
+
+  
+<!-- THE BELOW CODE IS DISABLING REACTS AUTO REFRESH FEATURE -->
+<!-- YOU ALSO NEED TO RUN THIS CODE IN THE TERMINAL TO USE IT:
+ * REACT_APP_DISABLE_LIVE_RELOAD=true npm start * -->
+
   <% if (process.env.REACT_APP_DISABLE_LIVE_RELOAD === "true") { %>
     <!-- 
       Live Reload was causing issues for us. Disable it by starting the app with
