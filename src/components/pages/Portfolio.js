@@ -1,73 +1,129 @@
 import React from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import sample1 from '../../assets/weather-dashboard2.png'
-import sample2 from '../../assets/password-generator.png'
-import sample3 from '../../assets/js-quiz3.png'
-import sample4 from '../../assets/team-profile-generator.png'
-import sample5 from '../../assets/happytrees.png'
+import { capitalizeFirstLetter } from "../../utils/helpers";
+import sample1 from "../../assets/weather-dashboard2.png";
+import sample2 from "../../assets/password-generator.png";
+import sample3 from "../../assets/js-quiz3.png";
+import sample4 from "../../assets/team-profile-generator.png";
+import sample5 from "../../assets/happytrees.png";
+import sample6 from "../../assets/dognostic.png";
 
-function Portfolio(props) {
-  const currentImage = {
-    name: "Weather App",
-    description:
-      "App for searching and viewing weather data in various cities",
-  };
+
+function Portfolio() {
+  // const currentImage = {
+  //   name: "Weather App",
+  //   description:
+  //     "App for searching and viewing weather data in various cities",
+  // };
   return (
-    <section>
-      <h1>{capitalizeFirstLetter(currentImage.name)}</h1>
-      {/* <p>{currentImage.name}</p> */}
-      <div className='flex-row'>
-          <img
-            src={sample1}
-            alt='Weather App'
-            className='img-thumbnail mx-1'
-          />
-      </div>
-      <h1>{capitalizeFirstLetter(currentImage.name)}</h1>
-      {/* <p>{currentImage.name}</p> */}
-      <div className='flex-row'>
-          <img
-            src={sample2}
-            alt='Password Generator'
-            className='img-thumbnail mx-1'
-          />
-      </div>
-      <h1>{capitalizeFirstLetter(currentImage.name)}</h1>
-      {/* <p>{currentImage.name}</p> */}
-      <div className='flex-row'>
-          <img
-            src={sample3}
-            alt='Quiz'
-            className='img-thumbnail mx-1'
-          />
-      </div>
-      <h1>{capitalizeFirstLetter(currentImage.name)}</h1>
-      {/* <p>{currentImage.name}</p> */}
-      <div className='flex-row'>
-          <img
-            src={sample4}
-            alt='Employee Profile Builder'
-            className='img-thumbnail mx-1'
-          />
-      </div>
-      <h1>{capitalizeFirstLetter(currentImage.name)}</h1>
-      {/* <p>{currentImage.name}</p> */}
-      <div className='flex-row'>
-          <img
-            src={sample5}
-            alt='Happy Trees'
-            className='img-thumbnail mx-1'
-          />
+    <section className="portfolio">
+      <div className="app-row">
+        <div className="apps">
+          <h1>Weather App</h1>
+          <div className="app-links">
+            <a
+              href="https://dogmom3.github.io/weather-dashboard/"
+              target="blank"
+            >
+              Deployed App
+            </a>
+            <a
+              href="https://github.com/dogmom3/weather-dashboard"
+              target="blank"
+            >
+              View this project on GitHub
+            </a>
+          </div>
+          <img src={sample1} alt="Weather App" className="img" />
+        </div>
+        <div className="apps">
+          <h1>Password Generator</h1>
+          <div className="app-links">
+            <a
+              href="https://dogmom3.github.io/password-generator/"
+              target="blank"
+            >
+              Deployed App
+            </a>
+            <a
+              href="https://github.com/dogmom3/password-generator"
+              target="blank"
+            >
+              View this project on GitHub
+            </a>
+          </div>
+          <img src={sample2} alt="Password Generator" className="img" />
+        </div>
+        <div className="apps">
+          <h1>Quiz</h1>
+          <div className="app-links">
+          <a href="https://dogmom3.github.io/javascript-quiz/" target="blank">
+            Deployed App
+          </a>
+          <a href="https://github.com/dogmom3/javascript-quiz" target="blank">
+            View this project on GitHub
+          </a>
+          </div>
+          <img src={sample3} alt="Quiz" className="img" />
+        </div>
       </div>
 
+      <div className="app-row">
+        <div className="apps">
+          <h1>Employee Profile Builder</h1>
+          <div className="app-links">
+          <a
+            href="https://dogmom3.github.io/employee-data-input/"
+            target="blank"
+          >
+            Deployed App
+          </a>
+          <a
+            href="https://github.com/dogmom3/employee-data-input"
+            target="blank"
+          >
+            View this project on GitHub
+          </a>
+          </div>
+          <img src={sample4} alt="Employee Profile Builder" className="img" />
+        </div>
+        <div className="apps">
+          <h1>Happy Trees</h1>
+          <div className="app-links">
+          <a href="https://gentle-lake-59989.herokuapp.com/" target="blank">
+            Deployed App
+          </a>
+          <a
+            href="https://github.com/HackStreetPeople/happy-trees"
+            target="blank"
+          >
+            View this project on GitHub
+          </a>
+          </div>
+          <img src={sample5} alt="Happy Trees" className="img" />
+        </div>
+        <div className="apps">
+          <h1>Dognostic</h1>
+          <div className="app-links">
+          <a
+            href="https://boolean-hooligans.github.io/dognostic-1/"
+            target="blank"
+          >
+            Deployed App
+          </a>
+          <a
+            href="https://github.com/Boolean-Hooligans/dognostic-1"
+            target="blank"
+          >
+            View this project on GitHub
+          </a>
+          </div>
+          <img src={sample6} alt="Dognostic" className="img" />
+        </div>
+      </div>
     </section>
-    
-    );
-  }
-  export default Portfolio;
-
-
-
+  );
+}
+export default Portfolio;
 
 //   const projects = [
 //     { name: "Weather App",
