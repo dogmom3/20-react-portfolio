@@ -1,3 +1,4 @@
+/* WHOLE PAGE */
 * {
   box-sizing: border-box;
   background-size: cover;
@@ -5,7 +6,7 @@
 }
 html,
 body {
-  background-image: url('../src/assets/fallslake.jpg');
+  background-image: url("../src/assets/fallslake.jpg");
   background-attachment: fixed;
   min-height: 100%;
 }
@@ -17,6 +18,8 @@ h2 {
   font-family: cursive;
   font-size: 35px;
 }
+
+/* NAV */
 .nav {
   display: flex;
   flex-direction: row;
@@ -29,13 +32,14 @@ h2 {
   margin: 25px;
   cursor: pointer;
 }
-
 a {
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
+
+/* HOME */
 .home {
   display: flex;
   flex-direction: column;
@@ -43,38 +47,88 @@ a:hover {
   /* justify-content: center; */
 }
 
+/* ABOUT */
+.about {
+  margin: 20px;
+}
+.profileImage {
+  border-radius: 5px;
+}
+.bio {
+  text-align: center;
+  /* margin: 10px; */
+}
+.img-bio {
+  display: flex;
+  flex-direction: row;
+}
 
 /* PORTFOLIO */
-.portfolio{
+.portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.apps{
+.apps {
   margin: 10px;
   border-radius: 5px;
 }
-.app-row{
-  display:flex;
+.app-row {
+  display: flex;
   flex-direction: row;
 }
 .app-links {
   display: flex;
   flex-direction: column;
 }
-.img{
+.img {
   width: 28vw;
   height: 25vh;
 }
+
+/* CONTACT */
+.contact {
+  margin: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 10px;
+}
+.submitBtn {
+  border-radius: 5px;
+  max-width: 10vw;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+input {
+  min-height: 5vh;
+  max-width: 25vw;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+textarea {
+  min-height: 20vh;
+  max-width: 25vw;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border-width: 2px;
+}
+
+
+
 main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
 }
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -87,39 +141,6 @@ body {
   font-family: "Poiret One", cursive;
 }
 
-header {
-  background: var(--dark);
-}
-
-header a {
-  color: var(--light);
-}
-
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
-
-img {
-  max-width: 100%;
-}
-
 span[role="img"] {
   cursor: default;
 }
@@ -128,29 +149,8 @@ form {
   width: 40%;
 }
 
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
 li {
   list-style: none;
-}
-
-textarea {
-  width: 600px;
-  height: 120px;
-  border: 3px solid #cccccc;
-  padding: 5px;
 }
 
 .container {
@@ -160,11 +160,6 @@ textarea {
   margin-right: auto;
 }
 
-/* .flex-row {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
 .space-between {
   justify-content: space-between;
 }
@@ -173,30 +168,6 @@ textarea {
   justify-content: flex-end;
 }
 
-/* .mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-} */
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-/* .my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-} */
-
-/* .my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-} */
 
 .px-1 {
   padding-right: var(--spacing-one);
@@ -222,7 +193,6 @@ textarea {
   width: 25%;
   text-align: center;
   margin-bottom: 50px;
-
 }
 
 .modalBackdrop {
@@ -249,29 +219,4 @@ textarea {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-a {
-  border-radius: 5px;
-  color: var(--primary);
-  font-weight: 600;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
-}
-
-.navActive {
-  color: var(--secondary);
 }

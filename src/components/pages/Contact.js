@@ -2,24 +2,24 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
+    <div className='contact'>
       <h1>Contact Me</h1>
-      <form class="contact-form">
-        <div>
-          <label for="name">NAME:</label>
+      <form className="contact-form">
+        {/* <div> */}
+          <label for="name">Name:</label>
           <input type="text" id="name" />
-        </div>
-        <div>
-          <label for="email">EMAIL:</label>
+        {/* </div> */}
+        {/* <div> */}
+          <label for="email">Email:</label>
           <input type="text" id="email" />
-        </div>
-        <div>
-          <label for="message">MESSAGE:</label>
+        {/* </div> */}
+        {/* <div> */}
+          <label for="message">Message:</label>
           <textarea type="text" id="message"></textarea>
-        </div>
-        <div>
-          <button type="submit">SEND</button>
-        </div>
+        {/* </div> */}
+        {/* <div> */}
+          <button className='submitBtn' type="submit">Send</button>
+        {/* </div> */}
       </form>
     </div>
   );
