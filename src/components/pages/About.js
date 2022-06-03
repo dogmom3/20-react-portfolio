@@ -4,7 +4,7 @@ import profileImage from "../../../src/assets/profile-photo.jpg";
 export default function About() {
   return (
     <div className="about">
-      <h1 id="about">About Me:</h1>
+      {/* <h1 id="about">About Me:</h1> */}
       <div className="img-bio">
         <img src={profileImage} className='profileImage' style={{ width: "20%" }} alt="profile" />
         <h2 className='bio'>
