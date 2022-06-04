@@ -1,49 +1,43 @@
 /* WHOLE PAGE */
-* {
-  box-sizing: border-box;
-  background-size: cover;
-}
 html,
 body {
   background-image: url("../src/assets/fallslake.jpg");
-  background-attachment: fixed;
-  min-height: 100%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 h1 {
   font-size: 45px;
 }
 h2 {
-  font-size: 35px;
-}
-h3{
-  font-size:25px;
+  font-size: 30px;
 }
 
 /* NAV */
-.nav {
+.nav-list {
+  background-color: teal;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-}
-.nav-item {
-  border-radius: 15px;
-  background: darkgoldenrod;
-  padding: 10px;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 25px;
   list-style: none;
 }
-a {
+.nav-item {
+  margin: 10px;
+}
+.nav-link {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
   cursor: pointer;
-  color:brown;
+  color: white;
   padding: 10px;
 }
-a:hover {
-  color: white;
+.nav-link:hover {
+  color: lightseagreen;
 }
 
 /* HOME */
@@ -52,81 +46,97 @@ a:hover {
   flex-direction: column;
   text-align: center;
   margin: 20px;
+  color: black;
 }
 
 /* ABOUT */
 .about {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
   margin: 20px;
   margin-top: 10vh;
 }
 .profileImage {
   border-radius: 5px;
+  height: 25vh;
+  max-width: 25vw;
 }
 .bio {
   text-align: center;
-}
-.img-bio {
-  display: flex;
-  flex-direction: row;
+  max-width: 60vw;
+  margin-left: 10vw;
+  color: black;
 }
 
 /* PORTFOLIO */
 .portfolio {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
 }
 .apps {
-  margin: 30px;
+  margin: 15px;
   border-radius: 5px;
-  background-color:lightblue;
   padding: 5px;
 }
-/* .app-row {
-  display: flex;
-  flex-direction: row;
-} */
-.app-links {
+.app-info {
+  color: white;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
- font-size: 18px;
- font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+}
+.app-link {
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+}
+.app-link:hover {
+  color: teal;
 }
 .img {
+  height: auto;
   width: 10vw;
-  height: 15vh;
 }
 
 /* CONTACT */
 .contact {
-  margin: 20px;
-}
-.contact-form {
   display: flex;
   flex-direction: column;
+  align-items: left;
+  margin-left: 10vw;
+}
+.contactForm {
   font-size: 25px;
   margin: 10px;
 }
 .submitBtn {
   border-radius: 5px;
-  max-width: 10vw;
   margin: 10px;
   padding: 10px;
   font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
 }
 input {
-  min-height: 5vh;
-  max-width: 25vw;
+  min-width: 20vw;
   font-size: 20px;
   padding: 10px;
   outline: none;
   border-radius: 5px;
 }
 textarea {
-  min-height: 20vh;
-  max-width: 25vw;
+  min-width: 20vw;
+  min-height: 15vh;
   border-radius: 5px;
   padding: 10px;
   outline: none;
