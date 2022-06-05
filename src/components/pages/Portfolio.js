@@ -16,110 +16,79 @@ function Portfolio() {
   // };
   return (
     <section className="portfolio">
-      <div className="app-row">
+      {/* <div className="app-row"> */}
+
         <div className="apps">
-          <h1>Weather App</h1>
-          <div className="app-links">
-            <a
-              href="https://dogmom3.github.io/weather-dashboard/"
-              target="blank"
-            >
-              Deployed App
-            </a>
-            <a
-              href="https://github.com/dogmom3/weather-dashboard"
-              target="blank"
-            >
-              View this project on GitHub
-            </a>
+          <div className="app-info">
+            <p className='app-name'>Weather App</p>
+            <a href="https://dogmom3.github.io/weather-dashboard/"
+             className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/dogmom3/weather-dashboard"
+             className="app-link" target="blank">GitHub Repo</a>
           </div>
           <img src={sample1} alt="Weather App" className="img" />
         </div>
+
         <div className="apps">
-          <h1>Password Generator</h1>
-          <div className="app-links">
-            <a
-              href="https://dogmom3.github.io/password-generator/"
-              target="blank"
-            >
-              Deployed App
-            </a>
-            <a
-              href="https://github.com/dogmom3/password-generator"
-              target="blank"
-            >
-              View this project on GitHub
-            </a>
+          <div className="app-info">
+            <p className='app-name'>Password Generator</p>
+            <a href="https://dogmom3.github.io/password-generator/"
+             className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/dogmom3/password-generator"
+              className="app-link" target="blank">GitHub Repo</a>
           </div>
           <img src={sample2} alt="Password Generator" className="img" />
         </div>
+
         <div className="apps">
-          <h1>Quiz</h1>
-          <div className="app-links">
-          <a href="https://dogmom3.github.io/javascript-quiz/" target="blank">
-            Deployed App
-          </a>
-          <a href="https://github.com/dogmom3/javascript-quiz" target="blank">
-            View this project on GitHub
-          </a>
+          <div className="app-info">
+            <p className='app-name'>Quiz</p>
+            <a href="https://dogmom3.github.io/javascript-quiz/" 
+          className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/dogmom3/javascript-quiz" 
+          className="app-link" target="blank">GitHub Repo</a>
           </div>
           <img src={sample3} alt="Quiz" className="img" />
         </div>
-      </div>
+      {/* </div> */}
 
-      <div className="app-row">
+      {/* <div className="app-row"> */}
+
         <div className="apps">
-          <h1>Employee Profile Builder</h1>
-          <div className="app-links">
-          <a
-            href="https://dogmom3.github.io/employee-data-input/"
-            target="blank"
-          >
-            Deployed App
-          </a>
-          <a
-            href="https://github.com/dogmom3/employee-data-input"
-            target="blank"
-          >
-            View this project on GitHub
-          </a>
+          <div className="app-info">
+            <p className='app-name'>Employee Profile</p>
+            <a href="https://dogmom3.github.io/employee-data-input/"
+            className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/dogmom3/employee-data-input"
+            className="app-link" target="blank">GitHub Repo</a>
           </div>
           <img src={sample4} alt="Employee Profile Builder" className="img" />
         </div>
+
         <div className="apps">
-          <h1>Happy Trees</h1>
-          <div className="app-links">
-          <a href="https://gentle-lake-59989.herokuapp.com/" target="blank">
-            Deployed App
-          </a>
-          <a
-            href="https://github.com/HackStreetPeople/happy-trees"
-            target="blank"
-          >
-            View this project on GitHub
-          </a>
+          <div className="app-info">
+            <p className='app-name'>Happy Trees</p>
+            <a href="https://gentle-lake-59989.herokuapp.com/" 
+          className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/HackStreetPeople/happy-trees"
+            className="app-link" target="blank">GitHub Repo</a>
           </div>
           <img src={sample5} alt="Happy Trees" className="img" />
         </div>
+
         <div className="apps">
-          <h1>Dognostic</h1>
-          <div className="app-links">
-          <a
-            href="https://boolean-hooligans.github.io/dognostic-1/"
-            target="blank"
-          >
-            Deployed App
-          </a>
-          <a
-            href="https://github.com/Boolean-Hooligans/dognostic-1"
-            target="blank"
-          >
-            View this project on GitHub
-          </a>
-          </div>
+          <div className="app-info">
+            <p className='app-name'>Dognostic</p>
+            <a href="https://boolean-hooligans.github.io/dognostic-1/"
+            className="app-link" target="blank">Deployed App</a>
+            <a href="https://github.com/Boolean-Hooligans/dognostic-1"
+            className="app-link" target="blank">GitHub Repo</a>
           <img src={sample6} alt="Dognostic" className="img" />
+          
+          </div>
         </div>
-      </div>
+
+      {/* </div> */}
     </section>
   );
 }
