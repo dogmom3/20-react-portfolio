@@ -20,7 +20,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Weather App</p>
+            <p className='app-name'>Weather App</p>
             <a href="https://dogmom3.github.io/weather-dashboard/"
              className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/weather-dashboard"
@@ -31,7 +31,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Password Generator</p>
+            <p className='app-name'>Password Generator</p>
             <a href="https://dogmom3.github.io/password-generator/"
              className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/password-generator"
@@ -42,7 +42,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Quiz</p>
+            <p className='app-name'>Quiz</p>
             <a href="https://dogmom3.github.io/javascript-quiz/" 
           className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/javascript-quiz" 
@@ -56,7 +56,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Employee Profile</p>
+            <p className='app-name'>Employee Profile</p>
             <a href="https://dogmom3.github.io/employee-data-input/"
             className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/employee-data-input"
@@ -67,7 +67,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Happy Trees</p>
+            <p className='app-name'>Happy Trees</p>
             <a href="https://gentle-lake-59989.herokuapp.com/" 
           className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/HackStreetPeople/happy-trees"
@@ -78,7 +78,7 @@ function Portfolio() {
 
         <div className="apps">
           <div className="app-info">
-            <p>Dognostic</p>
+            <p className='app-name'>Dognostic</p>
             <a href="https://boolean-hooligans.github.io/dognostic-1/"
             className="app-link" target="blank">Deployed App</a>
             <a href="https://github.com/Boolean-Hooligans/dognostic-1"

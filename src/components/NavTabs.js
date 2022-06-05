@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-
+<header>
     <ul className="nav-list">
       <li className="nav-item">
         <a href="#home" onClick={() => 
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           className='nav-link'>Contact</a>
       </li>
     </ul>
-
+    </header>
   );
 }
 

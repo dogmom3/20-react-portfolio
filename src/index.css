@@ -3,7 +3,7 @@ html,
 body {
   background-image: url("../src/assets/fallslake.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -16,8 +16,11 @@ h2 {
 }
 
 /* NAV */
-.nav-list {
+header{
   background-color: teal;
+
+}
+.nav-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,7 +37,6 @@ h2 {
   font-weight: bold;
   cursor: pointer;
   color: white;
-  padding: 10px;
 }
 .nav-link:hover {
   color: lightseagreen;
@@ -83,6 +85,9 @@ h2 {
   border-radius: 5px;
   padding: 5px;
 }
+.app-name{
+  color:black;
+}
 .app-info {
   color: white;
   border-radius: 15px;
@@ -102,6 +107,11 @@ h2 {
 .img {
   height: auto;
   width: 10vw;
+}
+
+/* RESUME */
+.resumeList{
+list-style: none;
 }
 
 /* CONTACT */
@@ -141,4 +151,30 @@ textarea {
   padding: 10px;
   outline: none;
   border-width: 2px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  margin:10px;
+}
+.footer-link{
+  padding: 10px;
+  margin:10px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.footer-link:hover {
+  color: lightseagreen;
 }
