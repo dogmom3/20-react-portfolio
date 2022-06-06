@@ -6,10 +6,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 <header>
     <ul className="nav-list">
       <li className="nav-item">
-        <a href="#home" onClick={() => 
-        handlePageChange('Home')} className='nav-link'>Home</a>
-      </li>
-      <li className="nav-item">
         <a href="#about" onClick={() => handlePageChange('About')}
           className='nav-link'>About</a>
       </li>
