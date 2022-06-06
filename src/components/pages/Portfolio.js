@@ -18,9 +18,9 @@ export default function Portfolio() {
           <div className='image-overlay image-overlay-blur'>
             <p className='app-name'>Weather App</p>
             <a href="https://dogmom3.github.io/weather-dashboard/"
-             className="app-link" target="blank">Deployed App</a>
+             className="link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/weather-dashboard"
-             className="app-link" target="blank">GitHub Repo</a>
+             className="link" target="blank">GitHub Repo</a>
           </div>
         </div>
         <div className='app'>
@@ -28,9 +28,9 @@ export default function Portfolio() {
         <div className='image-overlay image-overlay-blur'>
           <p className='app-name'>PW Generator</p>
           <a href="https://dogmom3.github.io/password-generator/"
-             className="app-link" target="blank">Deployed App</a>
+             className="link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/password-generator"
-              className="app-link" target="blank">GitHub Repo</a>
+              className="link" target="blank">GitHub Repo</a>
         </div>
         </div>
         <div className='app'>
@@ -38,9 +38,9 @@ export default function Portfolio() {
         <div className='image-overlay image-overlay-blur'>
         <p className='app-name'>Quiz</p>
             <a href="https://dogmom3.github.io/javascript-quiz/" 
-          className="app-link" target="blank">Deployed App</a>
+          className="link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/javascript-quiz" 
-          className="app-link" target="blank">GitHub Repo</a>
+          className="link" target="blank">GitHub Repo</a>
         </div>
         </div>
       </div>
@@ -50,9 +50,9 @@ export default function Portfolio() {
         <div className='image-overlay image-overlay-blur'>
         <p className='app-name'>Employee Profile</p>
             <a href="https://dogmom3.github.io/employee-data-input/"
-            className="app-link" target="blank">Deployed App</a>
+            className="link" target="blank">Deployed App</a>
             <a href="https://github.com/dogmom3/employee-data-input"
-            className="app-link" target="blank">GitHub Repo</a>
+            className="link" target="blank">GitHub Repo</a>
         </div>
         </div>
         <div className='app'>
@@ -60,9 +60,9 @@ export default function Portfolio() {
         <div className='image-overlay image-overlay-blur'>
         <p className='app-name'>Happy Trees</p>
             <a href="https://gentle-lake-59989.herokuapp.com/" 
-          className="app-link" target="blank">Deployed App</a>
+          className="link" target="blank">Deployed App</a>
             <a href="https://github.com/HackStreetPeople/happy-trees"
-            className="app-link" target="blank">GitHub Repo</a>
+            className="link" target="blank">GitHub Repo</a>
         </div>
         </div>
         <div className='app'>
@@ -70,9 +70,9 @@ export default function Portfolio() {
         <div className='image-overlay image-overlay-blur'>
         <p className='app-name'>Dognostic</p>
             <a href="https://boolean-hooligans.github.io/dognostic-1/"
-            className="app-link" target="blank">Deployed App</a>
+            className="link" target="blank">Deployed App</a>
             <a href="https://github.com/Boolean-Hooligans/dognostic-1"
-            className="app-link" target="blank">GitHub Repo</a>
+            className="link" target="blank">GitHub Repo</a>
         </div>
         </div>
       </div>

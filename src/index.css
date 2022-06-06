@@ -6,63 +6,59 @@ body {
   background-size: cover; */
   height: 100%;
   width: 100vw;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 h1 {
   font-size: 45px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
-
-/* NAV */
-header{
-  background-color: teal;
-  /* background-image: url("./assets/fallslake.jpg"); */
-  /* background-size: cover; */
-
-}
-.nav-list {
+.background {
+  background-image:-webkit-radial-gradient(azure, aqua, teal);  
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vw;
+  margin-top: 10vh;
+  color: navy;
+
 }
-.nav-item {
-  margin: 10px;
-}
-.nav-link {
-  padding: 10px;
+.link{
+  margin:15px;
   border-radius: 15px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
   color: white;
 }
-.nav-link:hover {
+.link:hover{
   color: lightseagreen;
 }
 
-/* HOME */
-.home {
+/* HEADER & FOOTER */
+header, footer{
+  background-color: teal;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 20px;
-  color: black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+footer{
+  position: absolute;
+ bottom:0;
+}
+.main{
+  /* THIS IS HELPING THE FOOTER STAY IN PLACE  */
+  position: relative;
+  min-height: 100vh;
 }
 
 /* ABOUT */
-.about {
-  background-image:-webkit-radial-gradient(azure, aqua, teal);  
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px;
-  margin-top: 10vh;
-}
 .profileImg {
   border-radius: 5px;
   height: 25vh;
@@ -75,24 +71,27 @@ header{
   align-content: center;
   border-style: ridge;
   border-width: 5px;
-  margin: 10px;
+  border-radius: 15px;
+  margin: 20px;
 }
 .bio {
   border-style: ridge;
   border-width: 5px;
+  border-radius: 15px;
   text-align: center;
   max-width: 60vw;
-  color: black;
 }
 
 /* PORTFOLIO */
+.portfolio{
+  margin-top:5vh;
+}
 .app{
   position: relative;
   width: 30vw;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin: 10px;
-
 }
 .app-row{
   display:flex;
@@ -105,13 +104,19 @@ header{
   height: 30vh;
   width:100%;
   border-radius: 15px;
+  border-style:ridge;
+  border-width: 5px;
 }
+
+/* IMAGE OVERLAY EFFECTS FOR PORTFOLIO & RESUME */
 .image-overlay{
   position: absolute;
   top:0;
   left:0;
   width:100%;
   height:100%;
+  border-style:ridge;
+  border-width: 5px;
   border-radius: 15px;
   background: rgba(0,0,0,0.6);
   color: white;
@@ -136,91 +141,87 @@ transform: translateY(0);
   backdrop-filter: blur(5px);
 }
 
-/*
-.app-name{
-  color:teal;
+/* RESUME */
+.list{
+  border-style: ridge;
+  border-radius:15px;
+  border-width: 5px;
+  padding:10px;
+  margin:20px;
+  color: navy;
 }
-.app-info {
-  color: black;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  font-weight: bold;
-}*/
-.app-link {
+.list-title{
+  text-decoration: underline;
+  text-align: center;
+}
+.list-columns{
+  display:flex;
+  flex-direction: row;
+}
+.skills{
+list-style:square;
+font-size: 25px;
+font-weight: bold;
+margin:10px;
+}
+li{
+  margin:5px;
+}
+.resume{
+  position: relative;
   font-size: 25px;
   font-weight: bold;
-  color: white;
-  margin: 5px;
-} 
-
-/* RESUME */
-.resumeList{
-list-style: none;
+  margin: 20px;
+}
+.resumeImg{
+  display: block;
+  height: 50vh;
+  width:100%;
+  border-radius: 15px;
+  border-style:ridge;
+  border-width: 5px;
 }
 
 /* CONTACT */
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin-left: 10vw;
-}
-.contactForm {
+.contact-form {
+  border-style: ridge;
+  border-radius: 15px;
+  border-width: 5px;
   font-size: 25px;
-  margin: 10px;
+  margin: 20px;
 }
 .submitBtn {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-}
-label {
-  font-size: 20px;
-  font-weight: bold;
-}
-input {
-  min-width: 20vw;
-  font-size: 20px;
-  padding: 10px;
-  outline: none;
-  border-radius: 5px;
-}
-textarea {
-  min-width: 20vw;
-  min-height: 15vh;
-  border-radius: 5px;
-  padding: 10px;
-  outline: none;
-  border-width: 2px;
-}
-
-/* FOOTER */
-.footer {
-  background-color: teal;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
-  margin:10px;
-}
-.footer-link{
-  padding: 10px;
-  margin:10px;
-  border-radius: 15px;
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
-  color: white;
+  border-style: ridge;
+  border-radius:15px;
+  border-width: 5px;
+  border-color:lightgrey;
+  background-color:white;
+  color:navy;
 }
-.footer-link:hover {
-  color: lightseagreen;
+.submitBtn:hover{
+  background-color:navy;
+  color:white;
 }
+label {
+  font-size: 25px;
+  margin: 20px;
+}
+input, textarea {
+  margin: 10px;
+  min-width: 20vw;
+  font-size: 25px;
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+  border-width: 2px;
+}
+textarea {
+  min-height: 15vh;
+}
+

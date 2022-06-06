@@ -37,37 +37,23 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
-      <h1>Contact Me</h1>
+    <div className="background">
+      <h1>Send me a Message!</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <label for="name">Name:</label>
         <div>
-          <input
-            type="text"
-            id="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
+          <input type="text" id="name"
+            defaultValue={name} onBlur={handleChange}/>
         </div>
-
         <label for="email">Email:</label>
         <div>
-          <input
-            type="text"
-            id="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
+          <input type="text" id="email"
+            defaultValue={email} onBlur={handleChange}/>
         </div>
-
         <label for="message">Message:</label>
         <div>
-          <textarea
-            type="text"
-            id="message"
-            defaultValue={message}
-            onBlur={handleChange}
-          ></textarea>
+          <textarea type="text" id="message"
+            defaultValue={message} onBlur={handleChange}></textarea>
         </div>
         <div>
           {errorMessage && (
