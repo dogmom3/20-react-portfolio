@@ -15,13 +15,13 @@ export default function Portfolio() {
       <div className="app-row">
         <div className='app'>
         <img src={sample1} alt="Weather App" className="image" />
-        <div className='image-overlay image-overlay-blur'>
-          <p className='app-name'>Weather App</p>
-          <a href="https://dogmom3.github.io/weather-dashboard/"
+          <div className='image-overlay image-overlay-blur'>
+            <p className='app-name'>Weather App</p>
+            <a href="https://dogmom3.github.io/weather-dashboard/"
              className="app-link" target="blank">Deployed App</a>
-          <a href="https://github.com/dogmom3/weather-dashboard"
+            <a href="https://github.com/dogmom3/weather-dashboard"
              className="app-link" target="blank">GitHub Repo</a>
-        </div>
+          </div>
         </div>
         <div className='app'>
         <img src={sample2} alt="Password Generator" className="image" />
