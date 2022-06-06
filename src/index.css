@@ -187,14 +187,14 @@ li{
   border-style: ridge;
   border-radius: 15px;
   border-width: 5px;
-  font-size: 25px;
+  /* font-size: 20px; */
   margin: 20px;
 }
 .submitBtn {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   border-style: ridge;
@@ -209,13 +209,13 @@ li{
   color:white;
 }
 label {
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px;
 }
 input, textarea {
   margin: 10px;
   min-width: 20vw;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
   outline: none;
   border-radius: 15px;
