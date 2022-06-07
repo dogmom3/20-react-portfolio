@@ -85,6 +85,9 @@ footer{
 /* PORTFOLIO */
 .portfolio{
   margin-top:5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .app{
   position: relative;
@@ -92,12 +95,6 @@ footer{
   font-size: 30px;
   font-weight: bold;
   margin: 10px;
-}
-.app-row{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items:center;
 }
 .image{
   display: block;
