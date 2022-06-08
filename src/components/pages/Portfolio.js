@@ -53,7 +53,7 @@ export default function Portfolio() {
     <section className="portfolio">
       {projects.map((project)=>(
         <div className='app'>
-        <img src={project.photo} alt={project.name} className="image" />
+          <img src={project.photo} alt={project.name} className="image" />
           <div className='image-overlay image-overlay-blur'>
             <p className='app-name'>{project.name}</p>
             <a href={project.githubLink}

@@ -29,7 +29,7 @@ export default function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name} Required Field.`);
       } else {
         setErrorMessage("");
       }
@@ -38,33 +38,40 @@ export default function Contact() {
 
   return (
     <div className="background">
-      <h1>Send me a Message!</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
-        <label for="name">Name:</label>
-        <div>
+      <h1>Send me a Message!</h1>
+
+        <div className="sendMsg">
+          <label for="name">Name:</label>
+          <div>
           <input type="text" id="name"
             defaultValue={name} onBlur={handleChange}/>
-        </div>
-        <label for="email">Email:</label>
-        <div>
+          </div>
+          <label for="email">Email:</label>
+          <div>
           <input type="text" id="email"
             defaultValue={email} onBlur={handleChange}/>
+          </div>
         </div>
-        <label for="message">Message:</label>
-        <div>
+
+        <div className='sendMsg'>
+          <label for="message">Message:</label>
+          <div>
           <textarea type="text" id="message"
             defaultValue={message} onBlur={handleChange}></textarea>
-        </div>
-        <div>
+          </div>
           {errorMessage && (
-            <div>
+          <div className='errMsg'>
               <p className="error-text">{errorMessage}</p>
-            </div>
+          </div>
           )}
+        </div>
+        <div className='sendMsg'>
           <button className="submitBtn" type="submit">
             Send
           </button>
         </div>
+
       </form>
     </div>
   );

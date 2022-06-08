@@ -2,8 +2,6 @@
 html,
 body {
   background-color: lightgrey;
-  /* background-image: url("../src/assets/fallslake.jpg");
-  background-size: cover; */
   height: 100%;
   width: 100vw;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,7 +22,6 @@ h2 {
   margin: 5vw;
   margin-top: 10vh;
   color: navy;
-
 }
 .link{
   margin:15px;
@@ -51,6 +48,7 @@ header, footer{
 footer{
   position: absolute;
  bottom:0;
+
 }
 .main{
   /* THIS IS HELPING THE FOOTER STAY IN PLACE  */
@@ -88,6 +86,7 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .app{
   position: relative;
@@ -95,6 +94,7 @@ footer{
   font-size: 30px;
   font-weight: bold;
   margin: 10px;
+
 }
 .image{
   display: block;
@@ -181,17 +181,20 @@ li{
 
 /* CONTACT */
 .contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-style: ridge;
   border-radius: 15px;
   border-width: 5px;
-  /* font-size: 20px; */
+  font-size: 20px;
   margin: 20px;
 }
 .submitBtn {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
   border-style: ridge;
@@ -206,7 +209,8 @@ li{
   color:white;
 }
 label {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   margin: 20px;
 }
 input, textarea {
@@ -220,5 +224,12 @@ input, textarea {
 }
 textarea {
   min-height: 15vh;
+}
+.errMsg{
+  color: navy;
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius:15px;
 }
 

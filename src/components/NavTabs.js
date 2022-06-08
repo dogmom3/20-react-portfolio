@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           className='link nav-link'>Contact</a>
       {/* </li> */}
     {/* </ul> */}
-    </header>
+</header>
   );
 }
 
