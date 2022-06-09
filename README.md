@@ -6,6 +6,7 @@
  ## Table of Contents
   * [Usage](#usage)
   * [Contributing](#contributing)
+  * [Deployment](#deployment)
   * [Screenshots](#screenshots)
 ***
  
@@ -23,6 +24,9 @@ Utilize the links in the navigation bar for more info about me:
   My name is Blair Seivers and I can be reached for any questions on this project by email at
   blair.seivers@gmail.com </br>
   You can view my other projects on GitHub here: https://github.com/dogmom3
+  ***
+  ## Deployment
+  https://dogmom3.github.io/20-react-portfolio-blair/
   ***
   ## Screenshots
   ![App Image](./src/assets/about-tab.png)
