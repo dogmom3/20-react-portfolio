@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/20-react-portfolio-blair/static/css/main.ba9eb997.css",
+    "main.js": "/20-react-portfolio-blair/static/js/main.62e250f2.js",
+    "static/js/787.51972ac4.chunk.js": "/20-react-portfolio-blair/static/js/787.51972ac4.chunk.js",
+    "static/media/happytrees.png": "/20-react-portfolio-blair/static/media/happytrees.c98b1382334728005389.png",
+    "static/media/dognostic.png": "/20-react-portfolio-blair/static/media/dognostic.6bdaef3a70c2cb823bca.png",
+    "static/media/weather-dashboard2.png": "/20-react-portfolio-blair/static/media/weather-dashboard2.32341d9b3be0f45d4e6b.png",
+    "static/media/team-profile-generator.png": "/20-react-portfolio-blair/static/media/team-profile-generator.41db917e2898e9bd4668.png",
+    "static/media/password-generator.png": "/20-react-portfolio-blair/static/media/password-generator.2d8f78f304bdd5314a9b.png",
+    "static/media/js-quiz3.png": "/20-react-portfolio-blair/static/media/js-quiz3.820c7b4c4a90b2c0aa98.png",
+    "static/media/resume-img.png": "/20-react-portfolio-blair/static/media/resume-img.41177ab0dae5d9863673.png",
+    "static/media/profile-photo.jpg": "/20-react-portfolio-blair/static/media/profile-photo.47260bc52c4ef56fa03c.jpg",
+    "static/media/Blair_Seivers_Resume.pdf": "/20-react-portfolio-blair/static/media/Blair_Seivers_Resume.fdff024621fb76bb75f4.pdf",
+    "index.html": "/20-react-portfolio-blair/index.html",
+    "main.ba9eb997.css.map": "/20-react-portfolio-blair/static/css/main.ba9eb997.css.map",
+    "main.62e250f2.js.map": "/20-react-portfolio-blair/static/js/main.62e250f2.js.map",
+    "787.51972ac4.chunk.js.map": "/20-react-portfolio-blair/static/js/787.51972ac4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba9eb997.css",
+    "static/js/main.62e250f2.js"
+  ]
+}
